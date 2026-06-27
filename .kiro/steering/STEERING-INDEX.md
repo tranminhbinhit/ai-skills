@@ -15,7 +15,7 @@
 | `ai-agent.md` | AI agent management (applies to all skills) |
 
 **All skill knowledge moved to** `.kiro/skills/{domain}/{skill}/`:
-- UI/UX Pro Max: ~90 files → `.kiro/skills/web/ui-ux-pro-max/references/`
+- UI/UX Pro Max: ~90 files → `.kiro/skills/frontend/design/ui-ux-pro-max/references/`
 - Angular skills: ~5 files → `.agents/skills/angular-*/`
 - Future skills: grouped by domain (backend/, database/, mobile/, etc.)
 
@@ -39,15 +39,15 @@
 
 ## Migrated Content (2026-06-27)
 
-All UI/UX Pro Max content moved from `.kiro/steering/` to `.kiro/skills/web/ui-ux-pro-max/references/`:
+All UI/UX Pro Max content moved from `.kiro/steering/` to `.kiro/skills/frontend/design/ui-ux-pro-max/references/`:
 
 ### Design Family (moved)
-- ~~`.kiro/steering/design/`~~ → `.kiro/skills/web/ui-ux-pro-max/references/design/`
-- ~~`.kiro/steering/brand/`~~ → `.kiro/skills/web/ui-ux-pro-max/references/brand/`
-- ~~`.kiro/steering/design-system/`~~ → `.kiro/skills/web/ui-ux-pro-max/references/design-system/`
-- ~~`.kiro/steering/slides/`~~ → `.kiro/skills/web/ui-ux-pro-max/references/slides/`
-- ~~`.kiro/steering/banner-design/`~~ → `.kiro/skills/web/ui-ux-pro-max/references/banner-design/`
-- ~~`.kiro/steering/ui-styling/`~~ → `.kiro/skills/web/ui-ux-pro-max/references/ui-styling/`
+- ~~`.kiro/steering/design/`~~ → `.kiro/skills/frontend/design/ui-ux-pro-max/references/design/`
+- ~~`.kiro/steering/brand/`~~ → `.kiro/skills/frontend/design/ui-ux-pro-max/references/brand/`
+- ~~`.kiro/steering/design-system/`~~ → `.kiro/skills/frontend/design/ui-ux-pro-max/references/design-system/`
+- ~~`.kiro/steering/slides/`~~ → `.kiro/skills/frontend/design/ui-ux-pro-max/references/slides/`
+- ~~`.kiro/steering/banner-design/`~~ → `.kiro/skills/frontend/design/ui-ux-pro-max/references/banner-design/`
+- ~~`.kiro/steering/ui-styling/`~~ → `.kiro/skills/frontend/design/ui-ux-pro-max/references/ui-styling/`
 
 ### Core Files (moved)
 - ~~`.kiro/steering/ai-agent.md`~~ → `.kiro/steering/core/ai-agent.md`
@@ -72,7 +72,7 @@ All UI/UX Pro Max content moved from `.kiro/steering/` to `.kiro/skills/web/ui-u
 | Location | Files | Purpose |
 |----------|-------|---------|
 | `.kiro/steering/core/` | 2 | Cross-cutting workflows only |
-| `.kiro/skills/web/ui-ux-pro-max/` | ~90 | UI/UX domain knowledge |
+| `.kiro/skills/frontend/design/ui-ux-pro-max/` | ~90 | UI/UX domain knowledge |
 | `.agents/skills/angular-*` | ~10 | Angular framework skills |
 | `.agents/skills/ai-dlc-*` | ~5 | Workflow orchestration |
 | **Total** | **~107** | - |

@@ -196,8 +196,8 @@ skills-lock.json                       ← Version control v2 (domain-aware)
 ### Legacy (to be migrated)
 
 **ui-ux-pro-max** - Comprehensive design system (~90 files)  
-📍 `.kiro/skills/web/ui-ux-pro-max/`  
-⚠️ To be migrated to `frontend/design/`
+📍 `.kiro/skills/frontend/design/ui-ux-pro-max/`  
+✅ Migrated to `frontend/design/` domain
 
 ---
 
@@ -429,7 +429,7 @@ After restructure (2026-06-27):
 **Total: 2 files**
 
 ### Skills (`.kiro/skills/`) - All domain knowledge
-- web/ui-ux-pro-max/ - ~90 files (design, brand, UI references)
+- frontend/design/ui-ux-pro-max/ - ~90 files (design, brand, UI references)
 - angular-developer/, angular-new-app/, ai-dlc-orchestrator/ - ~5 files each
 - Future skills grouped by domain
 

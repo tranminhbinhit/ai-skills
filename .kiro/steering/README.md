@@ -117,7 +117,7 @@ Steering files in `core/` are always included.
 ls .kiro/steering/core/
 
 # Skill knowledge
-ls .kiro/skills/web/ui-ux-pro-max/references/
+ls .kiro/skills/frontend/design/ui-ux-pro-max/references/
 ```
 
 ### Archive unused skills:
