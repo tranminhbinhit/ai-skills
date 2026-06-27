@@ -1,0 +1,382 @@
+﻿{
+    "version":  2,
+    "lastUpdated":  "2026-06-27",
+    "domains":  {
+                    "frontend":  {
+                                     "description":  "Web frontend technologies",
+                                     "subdomains":  [
+                                                        "angular",
+                                                        "ui",
+                                                        "design"
+                                                    ]
+                                 },
+                    "backend":  {
+                                    "description":  "Server-side development",
+                                    "subdomains":  [
+                                                       "nodejs",
+                                                       "python",
+                                                       "api"
+                                                   ]
+                                },
+                    "database":  {
+                                     "description":  "Data layer technologies",
+                                     "subdomains":  [
+                                                        "sql",
+                                                        "nosql",
+                                                        "orm"
+                                                    ]
+                                 },
+                    "quality":  {
+                                    "description":  "Code quality \u0026 testing",
+                                    "subdomains":  [
+                                                       "code-review"
+                                                   ]
+                                },
+                    "documentation":  {
+                                          "description":  "Content creation \u0026 documentation",
+                                          "subdomains":  [
+
+                                                         ]
+                                      },
+                    "meta":  {
+                                 "description":  "Skills about skills",
+                                 "subdomains":  [
+
+                                                ]
+                             },
+                    "workflow":  {
+                                     "description":  "Process \u0026 orchestration",
+                                     "subdomains":  [
+
+                                                    ]
+                                 }
+                },
+    "skills":  {
+                   "ai-dlc-orchestrator":  {
+                                               "source":  "local",
+                                               "sourceType":  "local",
+                                               "domain":  "workflow",
+                                               "subdomain":  null,
+                                               "skillPath":  "ai-dlc-orchestrator/SKILL.md",
+                                               "locationPath":  ".kiro/skills/workflow/ai-dlc-orchestrator",
+                                               "computedHash":  "local-skill"
+                                           },
+                   "angular-developer":  {
+                                             "source":  "angular/skills",
+                                             "sourceType":  "github",
+                                             "domain":  "frontend",
+                                             "subdomain":  "angular",
+                                             "skillPath":  "angular-developer/SKILL.md",
+                                             "locationPath":  ".kiro/skills/frontend/angular/angular-developer",
+                                             "computedHash":  "dc0d00affef561cd0181f5e2c38723fe645a1ecef591655d2b03ad95685812c9"
+                                         },
+                   "angular-new-app":  {
+                                           "source":  "angular/skills",
+                                           "sourceType":  "github",
+                                           "domain":  "frontend",
+                                           "subdomain":  "angular",
+                                           "skillPath":  "angular-new-app/SKILL.md",
+                                           "locationPath":  ".kiro/skills/frontend/angular/angular-new-app",
+                                           "computedHash":  "d9f712544847ab80ef7ed20043820afd275c394ca05340c2f20a0f051e35d945"
+                                       },
+                   "baseline-ui":  {
+                                       "source":  "ibelick/ui-skills",
+                                       "sourceType":  "github",
+                                       "domain":  "frontend",
+                                       "subdomain":  "ui",
+                                       "skillPath":  "skills/baseline-ui/SKILL.md",
+                                       "locationPath":  ".kiro/skills/frontend/ui/baseline-ui",
+                                       "computedHash":  "016ad266e4e3bfd058096bb032ae890b09973267a547048414a371f5b1b266de"
+                                   },
+                   "book-study":  {
+                                      "source":  "sanyuan0704/code-review-expert",
+                                      "sourceType":  "github",
+                                      "domain":  "documentation",
+                                      "subdomain":  null,
+                                      "skillPath":  "skills/book-study/SKILL.md",
+                                      "locationPath":  ".kiro/skills/documentation/book-study",
+                                      "computedHash":  "dcf674f1aeefbcfba261424da361dee84b7663661e1cde7716a572e7944f4bb5",
+                                      "tags":  [
+                                                   "educational",
+                                                   "study",
+                                                   "book"
+                                               ]
+                                  },
+                   "code-review-expert":  {
+                                              "source":  "sanyuan0704/code-review-expert",
+                                              "sourceType":  "github",
+                                              "domain":  "quality",
+                                              "subdomain":  "code-review",
+                                              "skillPath":  "skills/code-review-expert/SKILL.md",
+                                              "locationPath":  ".kiro/skills/quality/code-review/code-review-expert",
+                                              "computedHash":  "b5edc4ff0ed653de93d4a2b18d2d7cd6b914f6fff981e2e3b2a099497fbd57d1",
+                                              "tags":  [
+                                                           "code-review",
+                                                           "quality",
+                                                           "senior-engineer"
+                                                       ]
+                                          },
+                   "django-developer":  {
+                                            "source":  "unknown",
+                                            "sourceType":  "github",
+                                            "domain":  "backend",
+                                            "subdomain":  "python",
+                                            "skillPath":  "django-developer/SKILL.md",
+                                            "locationPath":  ".kiro/skills/backend/python/django-developer",
+                                            "computedHash":  "pending",
+                                            "status":  "installed-not-locked"
+                                        },
+                   "express-developer":  {
+                                             "source":  "unknown",
+                                             "sourceType":  "github",
+                                             "domain":  "backend",
+                                             "subdomain":  "nodejs",
+                                             "skillPath":  "express-developer/SKILL.md",
+                                             "locationPath":  ".kiro/skills/backend/nodejs/express-developer",
+                                             "computedHash":  "pending",
+                                             "status":  "installed-not-locked"
+                                         },
+                   "fastapi-developer":  {
+                                             "source":  "unknown",
+                                             "sourceType":  "github",
+                                             "domain":  "backend",
+                                             "subdomain":  "python",
+                                             "skillPath":  "fastapi-developer/SKILL.md",
+                                             "locationPath":  ".kiro/skills/backend/python/fastapi-developer",
+                                             "computedHash":  "pending",
+                                             "status":  "installed-not-locked"
+                                         },
+                   "fastify-developer":  {
+                                             "source":  "unknown",
+                                             "sourceType":  "github",
+                                             "domain":  "backend",
+                                             "subdomain":  "nodejs",
+                                             "skillPath":  "fastify-developer/SKILL.md",
+                                             "locationPath":  ".kiro/skills/backend/nodejs/fastify-developer",
+                                             "computedHash":  "pending",
+                                             "status":  "installed-not-locked"
+                                         },
+                   "fixing-accessibility":  {
+                                                "source":  "ibelick/ui-skills",
+                                                "sourceType":  "github",
+                                                "domain":  "frontend",
+                                                "subdomain":  "ui",
+                                                "skillPath":  "skills/fixing-accessibility/SKILL.md",
+                                                "locationPath":  ".kiro/skills/frontend/ui/fixing-accessibility",
+                                                "computedHash":  "f8ddcb0a8c7b8728105eab18e17223e41d74fb8649becba58a6deb90c6a5ce8d",
+                                                "tags":  [
+                                                             "accessibility",
+                                                             "a11y",
+                                                             "wcag"
+                                                         ]
+                                            },
+                   "fixing-metadata":  {
+                                           "source":  "ibelick/ui-skills",
+                                           "sourceType":  "github",
+                                           "domain":  "frontend",
+                                           "subdomain":  "ui",
+                                           "skillPath":  "skills/fixing-metadata/SKILL.md",
+                                           "locationPath":  ".kiro/skills/frontend/ui/fixing-metadata",
+                                           "computedHash":  "10047222b01c2c9b6e904ef90079880d9dbc09de3241df7f311b238dbcb7869a",
+                                           "tags":  [
+                                                        "metadata",
+                                                        "seo",
+                                                        "og-tags"
+                                                    ]
+                                       },
+                   "fixing-motion-performance":  {
+                                                     "source":  "ibelick/ui-skills",
+                                                     "sourceType":  "github",
+                                                     "domain":  "frontend",
+                                                     "subdomain":  "ui",
+                                                     "skillPath":  "skills/fixing-motion-performance/SKILL.md",
+                                                     "locationPath":  ".kiro/skills/frontend/ui/fixing-motion-performance",
+                                                     "computedHash":  "c1aca76fe18e8594f401cf78e5e76be24f182ce63167a398bdd4458f2a07639f",
+                                                     "tags":  [
+                                                                  "performance",
+                                                                  "animation",
+                                                                  "motion"
+                                                              ]
+                                                 },
+                   "graphql-expert":  {
+                                          "source":  "unknown",
+                                          "sourceType":  "github",
+                                          "domain":  "backend",
+                                          "subdomain":  "api",
+                                          "skillPath":  "graphql-expert/SKILL.md",
+                                          "locationPath":  ".kiro/skills/backend/api/graphql-expert",
+                                          "computedHash":  "pending",
+                                          "status":  "installed-not-locked"
+                                      },
+                   "mongodb-expert":  {
+                                          "source":  "unknown",
+                                          "sourceType":  "github",
+                                          "domain":  "database",
+                                          "subdomain":  "nosql",
+                                          "skillPath":  "mongodb-expert/SKILL.md",
+                                          "locationPath":  ".kiro/skills/database/nosql/mongodb-expert",
+                                          "computedHash":  "pending",
+                                          "status":  "installed-not-locked"
+                                      },
+                   "nestjs-developer":  {
+                                            "source":  "unknown",
+                                            "sourceType":  "github",
+                                            "domain":  "backend",
+                                            "subdomain":  "nodejs",
+                                            "skillPath":  "nestjs-developer/SKILL.md",
+                                            "locationPath":  ".kiro/skills/backend/nodejs/nestjs-developer",
+                                            "computedHash":  "pending",
+                                            "status":  "installed-not-locked"
+                                        },
+                   "pdf":  {
+                               "source":  "anthropics/skills",
+                               "sourceType":  "github",
+                               "domain":  "documentation",
+                               "subdomain":  null,
+                               "skillPath":  "skills/pdf/SKILL.md",
+                               "locationPath":  ".kiro/skills/documentation/pdf",
+                               "computedHash":  "37226d4220d844377e6b2a386c51a011df4cd130855ff0b80bcc22f9c28abd57",
+                               "tags":  [
+                                            "pdf",
+                                            "document",
+                                            "report"
+                                        ]
+                           },
+                   "postgresql-expert":  {
+                                             "source":  "unknown",
+                                             "sourceType":  "github",
+                                             "domain":  "database",
+                                             "subdomain":  "sql",
+                                             "skillPath":  "postgresql-expert/SKILL.md",
+                                             "locationPath":  ".kiro/skills/database/sql/postgresql-expert",
+                                             "computedHash":  "pending",
+                                             "status":  "installed-not-locked"
+                                         },
+                   "prisma-expert":  {
+                                         "source":  "unknown",
+                                         "sourceType":  "github",
+                                         "domain":  "database",
+                                         "subdomain":  "orm",
+                                         "skillPath":  "prisma-expert/SKILL.md",
+                                         "locationPath":  ".kiro/skills/database/orm/prisma-expert",
+                                         "computedHash":  "pending",
+                                         "status":  "installed-not-locked"
+                                     },
+                   "redis-expert":  {
+                                        "source":  "unknown",
+                                        "sourceType":  "github",
+                                        "domain":  "database",
+                                        "subdomain":  "nosql",
+                                        "skillPath":  "redis-expert/SKILL.md",
+                                        "locationPath":  ".kiro/skills/database/nosql/redis-expert",
+                                        "computedHash":  "pending",
+                                        "status":  "installed-not-locked"
+                                    },
+                   "sigma":  {
+                                 "source":  "sanyuan0704/code-review-expert",
+                                 "sourceType":  "github",
+                                 "domain":  "documentation",
+                                 "subdomain":  null,
+                                 "skillPath":  "skills/sigma/SKILL.md",
+                                 "locationPath":  ".kiro/skills/documentation/sigma",
+                                 "computedHash":  "e78ac76b26a25dd8189f773896b25b0ebb58d0bb3dfcd068cefa29f9779492ba",
+                                 "tags":  [
+                                              "educational",
+                                              "teaching",
+                                              "pedagogy"
+                                          ]
+                             },
+                   "skill-forge":  {
+                                       "source":  "sanyuan0704/code-review-expert",
+                                       "sourceType":  "github",
+                                       "domain":  "meta",
+                                       "subdomain":  null,
+                                       "skillPath":  "skills/skill-forge/SKILL.md",
+                                       "locationPath":  ".kiro/skills/meta/skill-forge",
+                                       "computedHash":  "ae2e1f3c1defc8ee9cd948e0104ac990d192cf26ccc4c92220e3e27398b95ba2",
+                                       "tags":  [
+                                                    "meta",
+                                                    "skill-creation",
+                                                    "authoring"
+                                                ]
+                                   },
+                   "skill-review":  {
+                                        "source":  "sanyuan0704/code-review-expert",
+                                        "sourceType":  "github",
+                                        "domain":  "meta",
+                                        "subdomain":  null,
+                                        "skillPath":  "skills/skill-review/SKILL.md",
+                                        "locationPath":  ".kiro/skills/meta/skill-review",
+                                        "computedHash":  "13c02a4dff18380590e37dcb340f8d7f8f6eaec3a09a29b49357d307bc165a5a",
+                                        "tags":  [
+                                                     "meta",
+                                                     "skill-review",
+                                                     "validation"
+                                                 ]
+                                    },
+                   "ui-skills-root":  {
+                                          "source":  "ibelick/ui-skills",
+                                          "sourceType":  "github",
+                                          "domain":  "frontend",
+                                          "subdomain":  "ui",
+                                          "skillPath":  "skills/ui-skills-root/SKILL.md",
+                                          "locationPath":  ".kiro/skills/frontend/ui/ui-skills-root",
+                                          "computedHash":  "76a520772c9532b141562d2b2e659f4e6636cf04d2f2c9b9cf5828702f0ad048",
+                                          "tags":  [
+                                                       "ui",
+                                                       "components",
+                                                       "umbrella-skill"
+                                                   ]
+                                      },
+                   "wiki-ingest":  {
+                                       "source":  "sanyuan0704/code-review-expert",
+                                       "sourceType":  "github",
+                                       "domain":  "documentation",
+                                       "subdomain":  null,
+                                       "skillPath":  "skills/wiki-ingest/SKILL.md",
+                                       "locationPath":  ".kiro/skills/documentation/wiki-ingest",
+                                       "computedHash":  "6c93a35095076f96f782a5f39c964ba4e84257bcc995f6773c340e0cd3866740",
+                                       "tags":  [
+                                                    "documentation",
+                                                    "wiki",
+                                                    "knowledge-base"
+                                                ]
+                                   },
+                   "ui-ux-pro-max":  {
+                                         "sourceType":  "local",
+                                         "tags":  [
+                                                      "design",
+                                                      "ui",
+                                                      "ux",
+                                                      "brand",
+                                                      "design-system"
+                                                  ],
+                                         "subdomain":  "design",
+                                         "source":  "local",
+                                         "skillPath":  "ui-ux-pro-max/SKILL.md",
+                                         "computedHash":  "local-skill",
+                                         "domain":  "frontend",
+                                         "locationPath":  ".kiro/skills/frontend/design/ui-ux-pro-max"
+                                     }
+               },
+    "statistics":  {
+                       "totalSkills":  26,
+                       "byDomain":  {
+                                        "frontend":  7,
+                                        "backend":  6,
+                                        "database":  5,
+                                        "quality":  1,
+                                        "documentation":  4,
+                                        "meta":  2,
+                                        "workflow":  1
+                                    },
+                       "bySourceType":  {
+                                            "github":  24,
+                                            "local":  1
+                                        },
+                       "byStatus":  {
+                                        "active":  15,
+                                        "installed-not-locked":  10
+                                    }
+                   }
+}
