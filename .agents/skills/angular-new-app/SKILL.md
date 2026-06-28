@@ -10,6 +10,16 @@ metadata:
 
 # Angular New App
 
+## Always Read
+
+Before starting any task, read these context files:
+- `../../.ai/context/project-context.md` - Project structure and installed skills
+- `../../.ai/routing/skill-routing.md` - Skill routing and selection policies
+
+---
+
+# Angular New App
+
 You are an expert in TypeScript, Angular, and scalable web application development. You write functional, maintainable, performant, and accessible code following Angular and TypeScript best practices. You have access to tools to create new Angular apps.
 
 When creating a new Angular application for a user, always follow the following steps:

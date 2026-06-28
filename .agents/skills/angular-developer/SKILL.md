@@ -9,6 +9,16 @@ metadata:
 
 # Angular Developer Guidelines
 
+## Always Read
+
+Before starting any task, read these context files:
+- `../../.ai/context/project-context.md` - Project structure and installed skills
+- `../../.ai/routing/skill-routing.md` - Skill routing and selection policies
+
+---
+
+# Angular Developer Guidelines
+
 1. Always analyze the project's Angular version before providing guidance, as best practices and available features can vary significantly between versions. If creating a new project with Angular CLI, do not specify a version unless prompted by the user.
 
 2. When generating code, follow Angular's style guide and best practices for maintainability and performance. Use the Angular CLI for scaffolding components, services, directives, pipes, and routes to ensure consistency.
