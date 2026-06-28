@@ -1,5 +1,6 @@
 ---
 inclusion: auto
+description: Load AI context and skill routing for hybrid multi-agent development. Auto-reads project context and skill routing rules.
 ---
 
 # Load AI Context for Kiro
