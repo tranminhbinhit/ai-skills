@@ -1,0 +1,252 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-06-28T00:00:00.000Z",
+  "skills": {
+    "angular-developer": {
+      "name": "angular-developer",
+      "version": "1.0",
+      "location": ".kiro/skills/angular-developer/",
+      "source": "https://github.com/angular/skills",
+      "sourceType": "github",
+      "license": "MIT",
+      "author": "Copyright 2026 Google LLC",
+      "description": "Generates Angular code and provides architectural guidance. Trigger when creating projects, components, or services, or for best practices on reactivity (signals, linkedSignal, resource), forms, dependency injection, routing, SSR, accessibility (ARIA), animations, styling (component styles, Tailwind CSS), testing, or CLI tooling.",
+      "domain": "frontend",
+      "triggers": [
+        "Angular",
+        "component",
+        "service",
+        "form",
+        "routing",
+        "signals",
+        "RxJS",
+        "TypeScript",
+        "testing",
+        "CLI"
+      ],
+      "installedAt": "2026-06-28T00:00:00.000Z",
+      "computedHash": "auto"
+    },
+    "angular-new-app": {
+      "name": "angular-new-app",
+      "version": "1.0",
+      "location": ".kiro/skills/angular-new-app/",
+      "source": "https://github.com/angular/skills",
+      "sourceType": "github",
+      "license": "MIT",
+      "author": "Angular Team @ Google",
+      "description": "Creates a new Angular app using the Angular CLI. This skill should be used whenever a user wants to create a new Angular application and contains important guidelines for how to effectively create a modern Angular application.",
+      "domain": "frontend",
+      "compatibility": "Requires node, npm, and access to the internet",
+      "triggers": [
+        "ng new",
+        "create Angular app",
+        "new Angular project",
+        "scaffold Angular"
+      ],
+      "installedAt": "2026-06-28T00:00:00.000Z",
+      "computedHash": "auto"
+    },
+    "frontend-design": {
+      "name": "frontend-design",
+      "version": "1.0",
+      "location": ".kiro/skills/frontend-design/",
+      "source": "https://github.com/anthropics/skills",
+      "sourceType": "github",
+      "skillPath": "skills/frontend-design/SKILL.md",
+      "license": "Complete terms in LICENSE.txt",
+      "author": "Anthropic",
+      "description": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.",
+      "domain": "frontend-design",
+      "triggers": [
+        "visual design",
+        "UI design",
+        "typography",
+        "color palette",
+        "layout",
+        "aesthetic direction",
+        "distinctive design",
+        "design system"
+      ],
+      "installedAt": "2026-06-28T00:00:00.000Z",
+      "computedHash": "4eabc66183767153e404b39d1b839b1c37f2d82d86f0a0d7e880a579d8d62336"
+    },
+    "web-design-guidelines": {
+      "name": "web-design-guidelines",
+      "version": "1.0.0",
+      "location": ".kiro/skills/web-design-guidelines/",
+      "source": "https://github.com/vercel-labs/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/web-design-guidelines/SKILL.md",
+      "license": "MIT",
+      "author": "Vercel",
+      "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to 'review my UI', 'check accessibility', 'audit design', 'review UX', or 'check my site against best practices'.",
+      "domain": "frontend-review",
+      "triggers": [
+        "review UI",
+        "check accessibility",
+        "audit design",
+        "review UX",
+        "check site best practices",
+        "web guidelines"
+      ],
+      "installedAt": "2026-06-28T00:00:00.000Z",
+      "computedHash": "f3bc47f890f42a44db1007ab390709ec368e4b8c089baee6b0007182236ac474"
+    },
+    "code-review-expert": {
+      "name": "code-review-expert",
+      "version": "1.0",
+      "location": ".kiro/skills/code-review-expert/",
+      "source": "https://github.com/sanyuan0704/sanyuan-skills",
+      "sourceType": "github",
+      "skillPath": "skills/code-review-expert/SKILL.md",
+      "license": "MIT",
+      "author": "sanyuan0704",
+      "description": "Expert code review of current git changes with a senior engineer lens. Detects SOLID violations, security risks, and proposes actionable improvements.",
+      "domain": "quality",
+      "triggers": [
+        "code review",
+        "review git changes",
+        "SOLID principles",
+        "security scan",
+        "architecture review",
+        "git diff analysis"
+      ],
+      "installedAt": "2026-06-28T00:00:00.000Z",
+      "computedHash": "6c2fe31851a34e63e033257527eab04eea835ca1cf4c4276d1392a323e36e377"
+    },
+    "skill-review": {
+      "name": "skill-review",
+      "version": "1.0",
+      "location": ".kiro/skills/skill-review/",
+      "source": "https://github.com/sanyuan0704/sanyuan-skills",
+      "sourceType": "github",
+      "skillPath": "skills/skill-review/SKILL.md",
+      "license": "MIT",
+      "author": "sanyuan0704",
+      "description": "Quality review and audit for Claude Code skills. Analyzes skill structure, description quality, workflow design, token efficiency, and anti-patterns against best practices.",
+      "domain": "quality",
+      "triggers": [
+        "review skill",
+        "audit skill",
+        "skill quality",
+        "check my skill",
+        "evaluate skill",
+        "skill lint",
+        "validate skill"
+      ],
+      "installedAt": "2026-06-28T00:00:00.000Z",
+      "computedHash": "8d786d13179c6bd1e0b9ff05c3db72768349ab36c43ad431638fd9eef0f21137"
+    },
+    "ai-dlc-orchestrator": {
+      "name": "ai-dlc-orchestrator",
+      "version": "1.0",
+      "location": ".ai/skills/ai-dlc-orchestrator/",
+      "source": "local",
+      "sourceType": "custom",
+      "license": "MIT",
+      "author": "AI-DLC Framework",
+      "description": "Orchestrates AI-DLC (AI Development Life Cycle) workflow. Trigger when starting new projects, working through Inception/Construction/Operations phases, or need guidance on AI-DLC process. Guides through vision analysis, requirements generation, UoW planning, code implementation, and deployment.",
+      "domain": "sdlc",
+      "triggers": [
+        "AI-DLC",
+        "new project",
+        "Inception",
+        "Construction",
+        "Operations",
+        "UoW",
+        "Bolt",
+        "requirements",
+        "architecture design"
+      ],
+      "installedAt": "2026-06-28T00:00:00.000Z",
+      "computedHash": "custom"
+    }
+  },
+  "skillSources": {
+    "angular": {
+      "repo": "https://github.com/angular/skills",
+      "command": "npx skills add https://github.com/angular/skills"
+    },
+    "anthropic": {
+      "repo": "https://github.com/anthropics/skills",
+      "command": "npx skills add https://github.com/anthropics/skills --skill <skill-name>"
+    },
+    "vercel": {
+      "repo": "https://github.com/vercel-labs/agent-skills",
+      "command": "npx skills add https://github.com/vercel-labs/agent-skills --skill <skill-name>"
+    },
+    "sanyuan": {
+      "repo": "https://github.com/sanyuan0704/sanyuan-skills",
+      "command": "npx skills add https://github.com/sanyuan0704/sanyuan-skills --skill <skill-name>"
+    },
+    "ui-ux": {
+      "repo": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "command": "npx skills add https://github.com/nextlevelbuilder/ui-ux-pro-max-skill"
+    }
+  },
+  "agents": {
+    "kiro": {
+      "configFile": ".kiro/steering/load-ai-skills.md",
+      "skillLocations": [
+        ".kiro/skills/",
+        ".ai/skills/"
+      ],
+      "steeringLocation": ".kiro/steering/"
+    },
+    "codex-cli": {
+      "configFile": "AGENTS.md",
+      "skillLocations": [
+        ".kiro/skills/",
+        ".ai/skills/"
+      ]
+    },
+    "claude-code": {
+      "configFile": "CLAUDE.md",
+      "skillLocations": [
+        ".claude/commands/",
+        ".claude/skills/",
+        ".ai/skills/"
+      ]
+    },
+    "cursor": {
+      "configFile": ".cursor/rules/load-ai.md",
+      "skillLocations": [
+        ".cursor/rules/",
+        ".ai/skills/"
+      ]
+    },
+    "gemini-cli": {
+      "configFile": "GEMINI.md",
+      "skillLocations": [
+        ".",
+        ".ai/skills/"
+      ]
+    }
+  },
+  "structure": {
+    "context": ".ai/context/",
+    "routing": ".ai/routing/",
+    "customSkills": ".ai/skills/",
+    "installedSkills": ".kiro/skills/"
+  },
+  "domains": {
+    "frontend": [
+      "angular-developer",
+      "angular-new-app"
+    ],
+    "frontend-design": [
+      "frontend-design"
+    ],
+    "frontend-review": [
+      "web-design-guidelines"
+    ],
+    "quality": [
+      "code-review-expert",
+      "skill-review"
+    ],
+    "sdlc": [
+      "ai-dlc-orchestrator"
+    ]
+  }
+}
