@@ -20,6 +20,7 @@ When working on any task, always read these files first:
 
 Gemini CLI loads skills from:
 - **Context Files**: Project root
+- **Installed Agent Skills**: `.agents/skills/`
 - **Custom Skills**: `.ai/skills/`
 
 ---

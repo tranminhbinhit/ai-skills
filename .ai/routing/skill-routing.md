@@ -8,29 +8,62 @@ Luôn đọc file này trước khi chọn skill.
 
 ### Frontend Angular
 **Skill**: `angular-developer`  
-**Location**: `.kiro/skills/angular-developer/`  
+**Location**: `.agents/skills/angular-developer/`  
 **Trigger when**: Angular, component, page, form, route, RxJS, signal, UI, npm build frontend, TypeScript
 
 **Skill**: `angular-new-app`  
-**Location**: `.kiro/skills/angular-new-app/`  
+**Location**: `.agents/skills/angular-new-app/`  
 **Trigger when**: Create new Angular application, scaffold new project, ng new
 
 ### Frontend Design & Review
 **Skill**: `frontend-design`  
-**Location**: `.kiro/skills/frontend-design/`  
+**Location**: `.agents/skills/frontend-design/`  
 **Trigger when**: Visual design, UI design, typography, color palette, layout, aesthetic direction, distinctive design, design system
 
 **Skill**: `web-design-guidelines`  
-**Location**: `.kiro/skills/web-design-guidelines/`  
+**Location**: `.agents/skills/web-design-guidelines/`  
 **Trigger when**: Review UI, check accessibility, audit design, review UX, check site against best practices, web guidelines
+
+### Advanced Design & Creative
+**Skill**: `ui-ux-pro-max`  
+**Location**: `.ai/skills/ui-ux-pro-max/`  
+**Trigger when**: Design intelligence, UX guidelines, UI palettes, typography, chart choices, technology-stack UI recommendations
+
+**Skill**: `design`  
+**Location**: `.ai/skills/design/`  
+**Trigger when**: Logo design, corporate identity program, CIP, icons, social images, design mockups, brand identity, creative design workflows
+
+**Skill**: `banner-design`  
+**Location**: `.ai/skills/banner-design/`  
+**Trigger when**: Social media banners, ads, website hero banners, print banners, creative assets
+
+**Skill**: `ui-styling`  
+**Location**: `.ai/skills/ui-styling/`  
+**Trigger when**: Tailwind CSS, shadcn/ui, Radix UI, accessible components, dark mode, themes, responsive styling
+
+**Skill**: `brand`  
+**Location**: `.ai/skills/brand/`  
+**Trigger when**: Brand voice, visual identity, messaging framework, brand guidelines, brand consistency, asset management
+
+**Skill**: `slides`  
+**Location**: `.ai/skills/slides/`  
+**Trigger when**: Strategic HTML presentations, Chart.js slides, slide layouts, copywriting formulas, responsive presentations
+
+**Skill**: `design-system`  
+**Location**: `.ai/skills/design-system/`  
+**Trigger when**: Design tokens, token architecture, component specifications, CSS variables, design-system slides
+
+**Skill**: `ui-ux-pro-max-skill`  
+**Location**: `.ai/skills/ui-ux-pro-max-skill/`  
+**Trigger when**: Discovering or routing within the bundled UI/UX Pro Max suite. Prefer the focused child skills above when the task intent is clear.
 
 ### Code Quality & Review
 **Skill**: `code-review-expert`  
-**Location**: `.kiro/skills/code-review-expert/`  
+**Location**: `.agents/skills/code-review-expert/`  
 **Trigger when**: Code review, review git changes, SOLID principles, security scan, architecture review, git diff analysis
 
 **Skill**: `skill-review`  
-**Location**: `.kiro/skills/skill-review/`  
+**Location**: `.agents/skills/skill-review/`  
 **Trigger when**: Review skill, audit skill, skill quality, check my skill, evaluate skill, skill lint, validate skill
 
 ### SDLC & Project Management
@@ -51,6 +84,10 @@ Nếu task liên quan đến Angular, component, page, form, route, RxJS, signal
 Nếu task liên quan đến visual design, UI design, typography, color, layout, aesthetic:
 - **Ưu tiên skill**: `frontend-design`
 - Nếu review UI/UX hoặc accessibility: `web-design-guidelines`
+- Nếu cần design intelligence/palette/font/UX database: `ui-ux-pro-max`
+- Nếu cần Tailwind/shadcn/ui implementation: `ui-styling`
+- Nếu cần design system/tokens/component specs: `design-system`
+- Nếu cần brand/logo/banner/slides/social assets: `brand`, `design`, `banner-design`, hoặc `slides`
 
 ### Code Quality & Review
 Nếu task liên quan đến code review, security scan, SOLID principles, git diff:
@@ -120,11 +157,11 @@ Nếu task liên quan đến Epic, User Story, Task, Unit of Work, Plan, AI-DLC 
 
 | Agent       | Skills Location              | Steering/Instruction   | Load Config File |
 |-------------|------------------------------|------------------------|------------------|
-| Kiro        | `.kiro/skills`               | `.kiro/steering`       | `.kiro/steering/load-ai.md` |
-| Codex CLI   | `.agents/skills`             | `AGENTS.md`            | `AGENTS.md` |
-| Claude Code | `.claude/commands`, `.claude/skills` | `CLAUDE.md`    | `CLAUDE.md` |
-| Cursor      | Rules                        | `.cursor/rules`        | `.cursor/rules/load-ai.md` |
-| Gemini CLI  | context file                 | `GEMINI.md`            | `GEMINI.md` |
+| Kiro        | `.kiro/skills`, `.agents/skills`, `.ai/skills` | `.kiro/steering` | `.kiro/steering/load-ai-skills.md` |
+| Codex CLI   | `.agents/skills`, `.ai/skills` | `AGENTS.md`            | `AGENTS.md` |
+| Claude Code | `.claude/commands`, `.claude/skills`, `.agents/skills`, `.ai/skills` | `CLAUDE.md` | `CLAUDE.md` |
+| Cursor      | `.cursor/rules`, `.agents/skills`, `.ai/skills` | `.cursor/rules` | `.cursor/rules/load-ai-skills.md` |
+| Gemini CLI  | project root, `.agents/skills`, `.ai/skills` | `GEMINI.md` | `GEMINI.md` |
 
 ---
 
@@ -163,4 +200,3 @@ Create project inception phase for task-management-app.
 
 Agent: Loads only: ai-dlc-orchestrator
 ```
-

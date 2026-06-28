@@ -5,7 +5,7 @@
     "angular-developer": {
       "name": "angular-developer",
       "version": "1.0",
-      "location": ".kiro/skills/angular-developer/",
+      "location": ".agents/skills/angular-developer/",
       "source": "https://github.com/angular/skills",
       "sourceType": "github",
       "license": "MIT",
@@ -30,7 +30,7 @@
     "angular-new-app": {
       "name": "angular-new-app",
       "version": "1.0",
-      "location": ".kiro/skills/angular-new-app/",
+      "location": ".agents/skills/angular-new-app/",
       "source": "https://github.com/angular/skills",
       "sourceType": "github",
       "license": "MIT",
@@ -50,7 +50,7 @@
     "frontend-design": {
       "name": "frontend-design",
       "version": "1.0",
-      "location": ".kiro/skills/frontend-design/",
+      "location": ".agents/skills/frontend-design/",
       "source": "https://github.com/anthropics/skills",
       "sourceType": "github",
       "skillPath": "skills/frontend-design/SKILL.md",
@@ -74,7 +74,7 @@
     "web-design-guidelines": {
       "name": "web-design-guidelines",
       "version": "1.0.0",
-      "location": ".kiro/skills/web-design-guidelines/",
+      "location": ".agents/skills/web-design-guidelines/",
       "source": "https://github.com/vercel-labs/agent-skills",
       "sourceType": "github",
       "skillPath": "skills/web-design-guidelines/SKILL.md",
@@ -96,7 +96,7 @@
     "code-review-expert": {
       "name": "code-review-expert",
       "version": "1.0",
-      "location": ".kiro/skills/code-review-expert/",
+      "location": ".agents/skills/code-review-expert/",
       "source": "https://github.com/sanyuan0704/sanyuan-skills",
       "sourceType": "github",
       "skillPath": "skills/code-review-expert/SKILL.md",
@@ -118,7 +118,7 @@
     "skill-review": {
       "name": "skill-review",
       "version": "1.0",
-      "location": ".kiro/skills/skill-review/",
+      "location": ".agents/skills/skill-review/",
       "source": "https://github.com/sanyuan0704/sanyuan-skills",
       "sourceType": "github",
       "skillPath": "skills/skill-review/SKILL.md",
@@ -161,6 +161,168 @@
       ],
       "installedAt": "2026-06-28T00:00:00.000Z",
       "computedHash": "custom"
+    },
+    "ui-ux-pro-max": {
+      "name": "ui-ux-pro-max",
+      "version": "1.0.0",
+      "location": ".ai/skills/ui-ux-pro-max/",
+      "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "sourceType": "github-bundle-symlink",
+      "license": "MIT",
+      "author": "claudekit",
+      "description": "Comprehensive design guide for web, mobile, and desktop applications with styles, color palettes, font pairings, UX guidelines, chart types, and stack-specific UI recommendations.",
+      "domain": "frontend-design",
+      "triggers": [
+        "design intelligence",
+        "UX guidelines",
+        "color palette",
+        "typography",
+        "chart design",
+        "UI recommendations"
+      ],
+      "installedAt": "2026-06-29T00:00:00.000Z",
+      "computedHash": "bundle-symlink"
+    },
+    "design": {
+      "name": "design",
+      "version": "2.1.0",
+      "location": ".ai/skills/design/",
+      "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "sourceType": "github-bundle-symlink",
+      "license": "MIT",
+      "author": "claudekit",
+      "description": "Comprehensive design workflows for brand identity, logo generation, corporate identity programs, mockups, slides, banners, icons, and social media images.",
+      "domain": "creative-design",
+      "triggers": [
+        "design logo",
+        "brand identity",
+        "CIP",
+        "mockups",
+        "generate icon",
+        "social media images"
+      ],
+      "installedAt": "2026-06-29T00:00:00.000Z",
+      "computedHash": "bundle-symlink"
+    },
+    "banner-design": {
+      "name": "banner-design",
+      "version": "1.0.0",
+      "location": ".ai/skills/banner-design/",
+      "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "sourceType": "github-bundle-symlink",
+      "license": "MIT",
+      "author": "claudekit",
+      "description": "Design banners for social media, ads, website heroes, creative assets, and print with multiple art direction options.",
+      "domain": "creative-design",
+      "triggers": [
+        "banner",
+        "social media banner",
+        "ad creative",
+        "website hero",
+        "print banner"
+      ],
+      "installedAt": "2026-06-29T00:00:00.000Z",
+      "computedHash": "bundle-symlink"
+    },
+    "ui-styling": {
+      "name": "ui-styling",
+      "version": "1.0.0",
+      "location": ".ai/skills/ui-styling/",
+      "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "sourceType": "github-bundle-symlink",
+      "license": "MIT",
+      "author": "claudekit",
+      "description": "Create beautiful, accessible interfaces with shadcn/ui, Radix UI, Tailwind CSS, responsive layouts, themes, dark mode, and canvas-based visual designs.",
+      "domain": "frontend-design",
+      "triggers": [
+        "Tailwind",
+        "shadcn/ui",
+        "Radix UI",
+        "responsive styling",
+        "dark mode",
+        "accessible components"
+      ],
+      "installedAt": "2026-06-29T00:00:00.000Z",
+      "computedHash": "bundle-symlink"
+    },
+    "brand": {
+      "name": "brand",
+      "version": "1.0.0",
+      "location": ".ai/skills/brand/",
+      "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "sourceType": "github-bundle-symlink",
+      "license": "MIT",
+      "author": "claudekit",
+      "description": "Brand voice, visual identity, messaging frameworks, asset management, brand guidelines, brand consistency, and style guide workflows.",
+      "domain": "brand",
+      "triggers": [
+        "brand voice",
+        "visual identity",
+        "messaging framework",
+        "brand guidelines",
+        "brand consistency"
+      ],
+      "installedAt": "2026-06-29T00:00:00.000Z",
+      "computedHash": "bundle-symlink"
+    },
+    "slides": {
+      "name": "slides",
+      "version": "1.0.0",
+      "location": ".ai/skills/slides/",
+      "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "sourceType": "github-bundle-symlink",
+      "license": "MIT",
+      "author": "claudekit",
+      "description": "Create strategic HTML presentations with Chart.js, design tokens, responsive layouts, copywriting formulas, and contextual slide strategies.",
+      "domain": "presentations",
+      "triggers": [
+        "slides",
+        "HTML presentation",
+        "Chart.js",
+        "slide layout",
+        "presentation strategy"
+      ],
+      "installedAt": "2026-06-29T00:00:00.000Z",
+      "computedHash": "bundle-symlink"
+    },
+    "design-system": {
+      "name": "design-system",
+      "version": "1.0.0",
+      "location": ".ai/skills/design-system/",
+      "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "sourceType": "github-bundle-symlink",
+      "license": "MIT",
+      "author": "claudekit",
+      "description": "Token architecture, component specifications, CSS variables, spacing and typography scales, component specs, and strategic design-system slide creation.",
+      "domain": "design-system",
+      "triggers": [
+        "design tokens",
+        "component specs",
+        "token architecture",
+        "CSS variables",
+        "design system"
+      ],
+      "installedAt": "2026-06-29T00:00:00.000Z",
+      "computedHash": "bundle-symlink"
+    },
+    "ui-ux-pro-max-skill": {
+      "name": "ui-ux-pro-max-skill",
+      "version": "1.0.0",
+      "location": ".ai/skills/ui-ux-pro-max-skill/",
+      "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "sourceType": "github-bundle",
+      "license": "MIT",
+      "author": "claudekit",
+      "description": "Bundle index for the UI/UX Pro Max skill suite. Use when an agent needs to discover bundled design skills for UI/UX design intelligence, branding, banners, slides, design systems, Tailwind or shadcn/ui styling, logo design, icons, and social media creative workflows.",
+      "domain": "frontend-design",
+      "triggers": [
+        "UI/UX Pro Max",
+        "design skill bundle",
+        "bundled design skills",
+        "creative workflow skills"
+      ],
+      "installedAt": "2026-06-29T00:00:00.000Z",
+      "computedHash": "bundle-index"
     }
   },
   "skillSources": {
@@ -190,6 +352,7 @@
       "configFile": ".kiro/steering/load-ai-skills.md",
       "skillLocations": [
         ".kiro/skills/",
+        ".agents/skills/",
         ".ai/skills/"
       ],
       "steeringLocation": ".kiro/steering/"
@@ -197,7 +360,7 @@
     "codex-cli": {
       "configFile": "AGENTS.md",
       "skillLocations": [
-        ".kiro/skills/",
+        ".agents/skills/",
         ".ai/skills/"
       ]
     },
@@ -206,13 +369,15 @@
       "skillLocations": [
         ".claude/commands/",
         ".claude/skills/",
+        ".agents/skills/",
         ".ai/skills/"
       ]
     },
     "cursor": {
-      "configFile": ".cursor/rules/load-ai.md",
+      "configFile": ".cursor/rules/load-ai-skills.md",
       "skillLocations": [
         ".cursor/rules/",
+        ".agents/skills/",
         ".ai/skills/"
       ]
     },
@@ -220,6 +385,7 @@
       "configFile": "GEMINI.md",
       "skillLocations": [
         ".",
+        ".agents/skills/",
         ".ai/skills/"
       ]
     }
@@ -228,7 +394,8 @@
     "context": ".ai/context/",
     "routing": ".ai/routing/",
     "customSkills": ".ai/skills/",
-    "installedSkills": ".kiro/skills/"
+    "installedSkills": ".agents/skills/",
+    "kiroCompatibilitySkills": ".kiro/skills/"
   },
   "domains": {
     "frontend": [
@@ -236,7 +403,10 @@
       "angular-new-app"
     ],
     "frontend-design": [
-      "frontend-design"
+      "frontend-design",
+      "ui-ux-pro-max",
+      "ui-styling",
+      "ui-ux-pro-max-skill"
     ],
     "frontend-review": [
       "web-design-guidelines"
@@ -247,6 +417,19 @@
     ],
     "sdlc": [
       "ai-dlc-orchestrator"
+    ],
+    "creative-design": [
+      "design",
+      "banner-design"
+    ],
+    "brand": [
+      "brand"
+    ],
+    "presentations": [
+      "slides"
+    ],
+    "design-system": [
+      "design-system"
     ]
   }
 }

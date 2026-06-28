@@ -1,8 +1,13 @@
+---
+name: ai-dlc-orchestrator
+description: "Orchestrates AI-DLC (AI Development Life Cycle) workflow. Use when starting new projects, working through Inception, Construction, or Operations phases, creating requirements, architecture, epics, user stories, tasks, Unit of Work plans, Bolt prompts, or coordinating subsystem skills across design, frontend, backend, quality, testing, and DevOps."
+---
+
 ## Always Read
 
 Before starting any task, read these context files:
-- `../../.ai/context/project-context.md` - Project structure and installed skills
-- `../../.ai/routing/skill-routing.md` - Skill routing and selection policies
+- `../../context/project-context.md` - Project structure and installed skills
+- `../../routing/skill-routing.md` - Skill routing and selection policies
 
 ---
 

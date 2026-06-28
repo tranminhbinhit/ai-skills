@@ -20,6 +20,7 @@ When working on any task, always read these files first:
 
 Cursor loads skills from:
 - **Rules**: `.cursor/rules/`
+- **Installed Agent Skills**: `.agents/skills/`
 - **Custom Skills**: `.ai/skills/`
 
 ---

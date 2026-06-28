@@ -21,6 +21,7 @@ When working on any task, always read these files first:
 Claude Code loads skills from:
 - **Commands**: `.claude/commands/`
 - **Skills**: `.claude/skills/`
+- **Installed Agent Skills**: `.agents/skills/`
 - **Custom Skills**: `.ai/skills/`
 
 ---
